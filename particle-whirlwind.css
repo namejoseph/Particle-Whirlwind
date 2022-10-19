@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    cursor: url('box-cursor.png') 25 25, pointer;
+    /* background-color: rgb(51, 6, 6); /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(rgb(37, 7, 7), rgb(6, 60, 82), rgb(66, 4, 4), rgb(101, 2, 85)); */
+}
